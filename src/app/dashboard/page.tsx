@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import { mainsQuestions, advancedQuestions } from "@/data/questions";
 
 
 export default function Dashboard() {
