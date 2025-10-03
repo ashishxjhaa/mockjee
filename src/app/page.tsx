@@ -30,7 +30,7 @@ export default function HomePage() {
             <h1 className="text-white text-lg sm:text-2xl font-medium">Personalized Recommendations</h1>
             <p className="text-white opacity-70 text-md sm:text-lg font-medium">Get personalized questions that help you.</p>
             
-            <div className="mt-8 px-5 py-3 rounded-2xl bg-neutral-800 hover:bg-neutral-800/95 w-full h-fit hover:scale-105 transition-all duration-400 cursor-pointer">
+            <div className="mt-8 px-5 py-3 rounded-2xl bg-neutral-800 hover:bg-neutral-800/95 w-full h-fit hover:scale-105 transition-all duration-400">
               <div className="flex gap-3 items-center">
                 <div>
                   <Image src="/jee-main.png" alt="JEE Main" className="w-10 h-10" width={40} height={40} />
@@ -42,7 +42,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="mt-4 px-5 py-3 rounded-2xl bg-neutral-800 hover:bg-neutral-800/95 w-full h-fit hover:scale-105 transition-all duration-400 cursor-pointer">
+            <div className="mt-4 px-5 py-3 rounded-2xl bg-neutral-800 hover:bg-neutral-800/95 w-full h-fit hover:scale-105 transition-all duration-400">
               <div className="flex gap-3 items-center">
                 <div>
                   <Image src="/jee-advanced.png" alt="Jee Advanced" className="w-10 h-10" width={40} height={40} />
